@@ -1,0 +1,19 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "start-storybook -p 6006",
+    "build": "build-storybook --quiet"
+  },
+  "dependencies": {
+    "@storybook/react": "^6.4.10",
+    "@storybook/addon-actions": "^6.4.10",
+    "@storybook/addon-essentials": "^6.4.10",
+    "@storybook/addon-links": "^6.4.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ui": "*"
+  }
+}
